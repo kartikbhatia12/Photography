@@ -3,7 +3,7 @@ import WhyChooseUs from "../components/WhyChooseUs"
 import ContactCTA from "../components/ContactCTA"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
-import WhatsAppButton from "../components/WhatsappButton"
+import WhatsAppButton from "../components/WhatsAppButton"
 import {motion} from "framer-motion"
 import WaveDivider from "../components/WaveDivider"
 
@@ -56,5 +56,6 @@ const About = () => {
         </div>
     )
 }
+
 
 export default About;
