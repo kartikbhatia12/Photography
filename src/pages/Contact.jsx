@@ -1,7 +1,7 @@
 import ContactForm from "../components/ContactForm"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
-import WhatsAppButton from "../components/WhatsappButton"
+import WhatsAppButton from "../components/WhatsAppButton"
 
 
 const Contact = () => {
@@ -14,5 +14,6 @@ const Contact = () => {
         </>
     )
 }
+
 
 export default Contact;
