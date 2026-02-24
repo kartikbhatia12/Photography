@@ -22,6 +22,7 @@ import image30 from "../assets/image30.webp";
 import image31 from "../assets/image31.webp";
 import image32 from "../assets/image32.webp";
 import image33 from "../assets/image33.jpg";
+import WhatsAppButton from "../components/WhatsAppButton";
 
 const galleryItems = [
   { id: 1, src: image15, category: "Weddings", caption: "Golden hour vows", aspect: "4/5"  },
@@ -157,8 +158,10 @@ const Gallery = () => {
 
       <WaveDivider flip />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };
 
 export default Gallery;
+
