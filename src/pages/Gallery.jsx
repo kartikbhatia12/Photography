@@ -5,7 +5,12 @@ import Footer from "../components/Footer";
 import WaveDivider from "../components/WaveDivider";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import image14 from "../assets/image14.webp";
 import image15 from "../assets/image15.webp";
+import image16 from "../assets/image16.jpg";
+import image17 from "../assets/image17.jpg";
+import image18 from "../assets/image18.webp";
+import image13 from "../assets/image13.jpg";
 import image22 from "../assets/image22.jpg";
 import image23 from "../assets/image23.webp";
 import image24 from "../assets/image24.webp";
@@ -31,6 +36,11 @@ const galleryItems = [
   { id: 10, src: image32, category: "Kids", caption: "Curious explorer", aspect: "3/4"  },
   { id: 11, src: image22, category: "Weddings", caption: "Bridal portrait", aspect: "8/11" },
   { id: 12, src: image26, category: "Modeling", caption: "Fashion edge", aspect: "2/3"  },
+  { id: 13, src: image14, category: "Weddings",  caption: "Reception Glow", aspect: "4/5" },
+  { id: 14, src: image16,  category: "Modeling", caption: "Studio elegance", aspect: "3/4" },
+  { id: 15, src: image17,  category: "Kids", caption: "Pure joy", aspect: "1/1" },
+  { id: 16, src: image18, category: "Kids",  caption: "Little Happiness", aspect: "7/5" },
+  { id: 17, src: image13, category: "Modeling", caption: "Bold pose", aspect: "2/3" },
 ];
 
 const categories = ["All", "Weddings", "Modeling", "Kids"];
